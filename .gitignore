@@ -1,3 +1,15 @@
-PlantVillage
-TEST
-venv
+PlantVillage/
+TEST/
+venv/
+__pycache__/
+db/
+
+# Models - keep only myModel.keras
+my_model.keras
+potato_model.h5
+
+# Temp files
+tmp_*
+
+# Other
+training_report.png
