@@ -5,7 +5,6 @@ __pycache__/
 db/
 
 # Models - keep only myModel.keras
-my_model.keras
 potato_model.h5
 
 # Temp files
