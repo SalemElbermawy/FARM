@@ -1,4 +1,3 @@
-# app.py — streamlit run app.py
 
 import streamlit as st
 from model_deploy import run_pipeline

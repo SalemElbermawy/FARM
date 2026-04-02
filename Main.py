@@ -53,7 +53,7 @@ image_url=""
 import tensorflow as tf
 import numpy as np
 
-model = tf.keras.models.load_model('potato_model.h5')
+model = tf.keras.models.load_model('my_model.keras')
 
 
 CLASS_NAMES = ['Potato_Early___blight', 'Potato___healthy', 'Potato___Late_blight']

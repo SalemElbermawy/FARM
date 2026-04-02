@@ -31,7 +31,7 @@ def get_context(query):
 llm = ChatOpenAI(model="gemini-2.5-flash", base_url=BASE_URL, api_key=API_KEY)
 llm_image = ChatOpenAI(model="google/gemini-2.5-flash-image", base_url=BASE_URL, api_key=API_KEY)
 
-model = tf.keras.models.load_model('myModel.keras')
+model = tf.keras.models.load_model('my_model.keras')
 
 CLASS_NAMES = ['Potato_Early___blight', 'Potato___healthy', 'Potato___Late_blight']
 IMAGE_SIZE  = (200, 200)
